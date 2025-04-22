@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    clear:both;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(170, 255, 170)
+}
+.libraryTitle{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #82c1ff;
+    border-bottom: 2px solid black;
+    box-shadow: rgb(222, 189, 255) 0px 2px 5px;
+}
+.submitButton{
+    color:aliceblue;
+    background-color: #69b4ff;
+    padding: 5px;
+    border-radius: 2px;
+}
+.submitButton:hover{
+    background-color: #0092af;
+}
+.inputTitle, .inputAuthor, .inputYear {
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: #82c1ff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.bookList{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style:italic;
+    text-align: center;
+}
